@@ -1,0 +1,23 @@
+// Nama :  Fitria Rahmadani
+// NIM  :  M0521022
+
+public class PPBO_03_Latihan4 {
+    public static void main(String[] args) {
+        int arr[] = {5, 1, 4, 2, 3};
+
+        //Source code sebelum
+        /*for (int i = 1; i < 6; i++) {
+            System.out.println("elemen ke-" + i + " = " + arr[i]);
+        }*/
+
+        //Source code sesudah
+        int i = 0;
+        do {
+            System.out.println("elemen ke-" + (i+1) + " = " + arr[i]);
+            i++;
+        } while (i < 5);
+    }
+}
+
+// Melanjutkan source code Latihan3 yang sudah diperbaiki, ubahlah source code dengan 
+// mengganti dari perulangan FOR menjadi menggunakan DO ... WHILE
